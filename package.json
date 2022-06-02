@@ -1,0 +1,34 @@
+{
+    "name": "chibas-godlike-theme",
+    "displayName": "chibas-godlike-theme",
+    "description": "VS Code theme for all GODS.",
+    "version": "0.0.1",
+    "publisher": "chibas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/angjelonuho/chibas-godlike-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/apvarun/chibas-godlike-theme/issues"
+    },
+    "icon": "icon.jpg",
+    "galleryBanner": {
+        "color": "#0b0c0f",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "chibas-godlike-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/chibas-godlike-theme.json"
+            }
+        ]
+    }
+}
